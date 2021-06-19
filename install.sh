@@ -130,7 +130,7 @@ $ROOTSQLPWD
 EOT
 
 # Create PHP symlink
-ln -s /usr/local/lsws/lsphp74/bin/lsphp /usr/bin/php
+ln -s /usr/local/lsws/lsphp74/bin/lsphp /usr/local/lsws/fcgi-bin/lsphp5
 
 systemctl enable proftpd
 systemctl enable mariadb

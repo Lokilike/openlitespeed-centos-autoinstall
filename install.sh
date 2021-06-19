@@ -34,7 +34,7 @@ mkdir /home/defdomain
 mkdir /home/defdomain/html
 mkdir /home/defdomain/logs
 yum -y install openlitespeed
-yum -y install MariaDB-server MariaDB-client
+yum -y install MariaDB-server
 
 # Install PHP 74
 yum -y install lsphp74 lsphp74-common lsphp74-mysqlnd lsphp74-process lsphp74-gd lsphp74-mbstring \

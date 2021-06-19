@@ -38,7 +38,7 @@ yum -y install MariaDB-server MariaDB-client
 
 # Install PHP 74
 yum -y install lsphp74 lsphp74-common lsphp74-mysqlnd lsphp74-process lsphp74-gd lsphp74-mbstring \
-lsphp74-mcrypt lsphp74-opcache lsphp74-bcmath lsphp74-pdo lsphp74-xml lsphp74-json lsphp74-zip lsphp74-xmlrpc lsphp74-pecl-mcrypt
+lsphp74-mcrypt lsphp74-opcache lsphp74-bcmath lsphp74-pdo lsphp74-xml lsphp74-json lsphp74-zip lsphp74-xmlrpc lsphp74-pecl-mcrypt lsphp74-imap lsphp74-soap lsphp74-curl
 
 #Setting Up
 touch $LSWSDIR/domain
